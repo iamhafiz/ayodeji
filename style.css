@@ -1,0 +1,93 @@
+body{
+    color: black; 
+    font-size:arial;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+}
+a {
+    color:white;
+    text-decoration:none;
+
+}
+.navigation{
+background: purple;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+padding: 0px 30px;
+box-shadow: 0 2px 2px 2px rgb(39, 38, 38);
+}
+.navbar-nav {
+    display: flex;
+}
+.nav-item {
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.nav-item:hover{
+    background: rgba(214, 191, 214, 0.5);
+    padding: 17px 18px;
+}
+.hero{
+    background: rgba(128, 0, 128, 0.8);
+   padding: 20px;
+   text-align: center;
+   justify-items: center;
+}
+.form-control{
+    display: inline-block;
+    width: 60vw;
+    padding: 15px;
+    border-radius: 50px;    
+    border: none;
+    outline: none;
+}
+.form-sumbit {
+    width: 18%;
+    padding: 10px;
+    color: white;
+    font-weight: 500;    
+    border-radius: 30px;
+    background: #B1ACAC;
+    border: 1px solid #B1ACAC;
+    outline: none;
+    cursor: pointer;
+}
+.intro {
+    padding: 10px;
+    background: #f4f4f4;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col-box {
+    padding: 20px;
+    background: white;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.widget-title {
+    text-align: center;
+    
+}
+.widget {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.widget-item:hover {
+    color: #BE068B;
+}
+.widget-item{
+    text-align: center;
+}
+p{
+    color: #BE068B
+}
